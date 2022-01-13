@@ -1,0 +1,15 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1122283870	MusicStart			\Default Work Unit\MusicStart	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	5005252	PlayerScore			\Default Work Unit\PlayerScore	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	56470824	GateLayer_02	E:\Projects\DodgeTheCreeps_01_WWISE\DodgeTheCreeps_01_WWISE\.cache\Windows\SFX\GateLayer_02_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Level01\Level01_Playlist\Level01_Extrabass\GateLayer_02		1152064
+	224915668	GateLayer_03	E:\Projects\DodgeTheCreeps_01_WWISE\DodgeTheCreeps_01_WWISE\.cache\Windows\SFX\GateLayer_03_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Level01\Level01_Playlist\Level01_Extrabass\GateLayer_03		1152064
+	388807214	Drums_shufflebeat_01	E:\Projects\DodgeTheCreeps_01_WWISE\DodgeTheCreeps_01_WWISE\.cache\Windows\SFX\Drums_shufflebeat_01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Level01\Level01_Playlist\Level01_Extrabass\Drums_shufflebeat_01		1152064
+	630769643	Extrabass_01	E:\Projects\DodgeTheCreeps_01_WWISE\DodgeTheCreeps_01_WWISE\.cache\Windows\SFX\Extrabass_01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Level01\Level01_Playlist\Level01_Extrabass\Extrabass_01		1152064
+	767312258	GateLayer_01	E:\Projects\DodgeTheCreeps_01_WWISE\DodgeTheCreeps_01_WWISE\.cache\Windows\SFX\GateLayer_01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Level01\Level01_Playlist\Level01_Extrabass\GateLayer_01		1152064
+	862417842	Crescendo_01	E:\Projects\DodgeTheCreeps_01_WWISE\DodgeTheCreeps_01_WWISE\.cache\Windows\SFX\Crescendo_01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Level01\Level01_Playlist\Level01_Extrabass\Crescendo_01		1152064
+	1018025954	WAMP	E:\Projects\DodgeTheCreeps_01_WWISE\DodgeTheCreeps_01_WWISE\.cache\Windows\SFX\WAMP_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Level01\Level01_Playlist\Level01_Extrabass\WAMP		1152064
+

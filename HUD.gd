@@ -45,3 +45,4 @@ func _on_StartButton_pressed():
 	print("posting to wwise")
 	Wwise.register_game_obj(self, self.get_name())
 	Wwise.post_event("TestWoofEvent", self)
+	

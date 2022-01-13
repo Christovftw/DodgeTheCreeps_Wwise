@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="1750652218">
+		<SoundBank Id="393239870" Language="SFX" Hash="2307178192">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -20,16 +20,57 @@
 					<IncludedMemoryFiles>
 						<File Id="41863930" Language="SFX">
 							<ShortName>EFX INT Dog Fight 01 A.M.wav</ShortName>
-							<Path>SFX\EFX INT Dog Fight 01 A.M_E5F5DE3E.wem</Path>
+							<Path>SFX\EFX INT Dog Fight 01 A.M_EDDC4FB2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3690994985">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3131143441">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX" Hash="175707002">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1122283870" Name="MusicStart" ObjectPath="\Events\Default Work Unit\MusicStart"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="56470824" Language="SFX">
+					<ShortName>GateLayer_02.wav</ShortName>
+					<Path>SFX\GateLayer_02_D79FB2B7.wem</Path>
+				</File>
+				<File Id="224915668" Language="SFX">
+					<ShortName>GateLayer_03.wav</ShortName>
+					<Path>SFX\GateLayer_03_D79FB2B7.wem</Path>
+				</File>
+				<File Id="388807214" Language="SFX">
+					<ShortName>Drums_shufflebeat_01.wav</ShortName>
+					<Path>SFX\Drums_shufflebeat_01_D79FB2B7.wem</Path>
+				</File>
+				<File Id="630769643" Language="SFX">
+					<ShortName>Extrabass_01.wav</ShortName>
+					<Path>SFX\Extrabass_01_D79FB2B7.wem</Path>
+				</File>
+				<File Id="767312258" Language="SFX">
+					<ShortName>GateLayer_01.wav</ShortName>
+					<Path>SFX\GateLayer_01_D79FB2B7.wem</Path>
+				</File>
+				<File Id="862417842" Language="SFX">
+					<ShortName>Crescendo_01.wav</ShortName>
+					<Path>SFX\Crescendo_01_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1018025954" Language="SFX">
+					<ShortName>WAMP.wav</ShortName>
+					<Path>SFX\WAMP_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="5005252" Name="PlayerScore" ObjectPath="\Game Parameters\Default Work Unit\PlayerScore"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

@@ -35,7 +35,7 @@ config/icon="res://icon.png"
 PlayerVars="*res://PlayerVars.gd"
 WwiseSettings="*res://wwise/wwise_settings.gd"
 Wwise="*res://wwise/bin/wwise-gdnative.gdns"
-Waapi="*res://wwise/bin/waapi-gdnative-debug.gdns"
+Waapi="*res://wwise/bin/waapi-gdnative-release.gdns"
 InitScript="*res://InitScript.gd"
 
 [display]
