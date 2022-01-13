@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>E:\Projects\DodgeTheCreeps_01_WWISE\DodgeTheCreeps_01_WWISE\</ProjectRoot>
+		<SourceFilesRoot>E:\Projects\DodgeTheCreeps_01_WWISE\DodgeTheCreeps_01_WWISE\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Projects\DodgeTheCreeps_01\wwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\Projects\DodgeTheCreeps_01_WWISE\DodgeTheCreeps_01_WWISE\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="393239870" Language="SFX" Hash="1750652218">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="227030964" Name="TestWoofEvent" ObjectPath="\Events\Default Work Unit\TestWoofEvent">
+					<IncludedMemoryFiles>
+						<File Id="41863930" Language="SFX">
+							<ShortName>EFX INT Dog Fight 01 A.M.wav</ShortName>
+							<Path>SFX\EFX INT Dog Fight 01 A.M_E5F5DE3E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3690994985">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
