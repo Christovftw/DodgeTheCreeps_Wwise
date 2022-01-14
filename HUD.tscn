@@ -1,3 +1,95 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:db47a9c996fd0d14c7ac5e28e4e05f1fdcabe465cf4e87d06eeb75a97819212f
-size 2351
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://dodge_assets/fonts/Xolonium-Regular.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://HUD.gd" type="Script" id=2]
+[ext_resource path="res://dodge_assets/art/8bitheart.png" type="Texture" id=3]
+[ext_resource path="res://HealthCounter.gd" type="Script" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 64
+font_data = ExtResource( 1 )
+
+[node name="HUD" type="CanvasLayer"]
+script = ExtResource( 2 )
+
+[node name="ScoreLabel" type="Label" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -22.5
+margin_right = 22.5
+margin_bottom = 78.0
+custom_fonts/font = SubResource( 1 )
+text = "0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Message" type="Label" parent="."]
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_top = -79.5
+margin_bottom = 79.5
+custom_fonts/font = SubResource( 1 )
+text = "Dodge the Creeps!"
+align = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="StartButton" type="Button" parent="."]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -90.0
+margin_top = -200.0
+margin_right = 90.0
+margin_bottom = -96.0
+custom_fonts/font = SubResource( 1 )
+text = "Start"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MessageTimer" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+
+[node name="HealthCounter" type="HBoxContainer" parent="."]
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -132.0
+margin_top = 12.0
+margin_right = 2406.0
+margin_bottom = 646.0
+rect_scale = Vector2( 0.05, 0.05 )
+custom_constants/separation = 3
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="1" type="TextureRect" parent="HealthCounter"]
+margin_right = 800.0
+margin_bottom = 646.0
+texture = ExtResource( 3 )
+stretch_mode = 3
+
+[node name="2" type="TextureRect" parent="HealthCounter"]
+margin_left = 803.0
+margin_right = 1603.0
+margin_bottom = 646.0
+texture = ExtResource( 3 )
+stretch_mode = 3
+
+[node name="3" type="TextureRect" parent="HealthCounter"]
+margin_left = 1606.0
+margin_right = 2406.0
+margin_bottom = 646.0
+texture = ExtResource( 3 )
+stretch_mode = 3
+
+[connection signal="pressed" from="StartButton" to="." method="_on_StartButton_pressed"]
+[connection signal="timeout" from="MessageTimer" to="." method="_on_MessageTimer_timeout"]
