@@ -1,12 +1,3 @@
-extends Spatial
-
-export(bool) var is_spatial:bool = false
-
-func _ready() -> void:
-	Wwise.register_listener(self)
-	if is_spatial:
-		Wwise.register_spatial_listener(self)
-	Wwise.set_3d_position(self, get_global_transform())
-
-func _process(_delta) -> void:
-	Wwise.set_3d_position(self, self.get_global_transform())
+version https://git-lfs.github.com/spec/v1
+oid sha256:51ac13ee45814b2eb29ada2832f8bf88ae712498cc3a37fc5372168ac32bd878
+size 312

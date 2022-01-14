@@ -1,21 +1,3 @@
-extends Node
-
-
-
-func _ready():
-	#load the wwise sound banks
-	Wwise.load_bank("Init")
-	Wwise.load_bank("SFX")
-	Wwise.load_bank("Music")
-
-
-	# register the wwise listener
-	Wwise.register_listener(self)
-	# Wwise.set_3d_position(self, self.get_global_transform())
-
-	# start the music
-	Wwise.post_event("MusicStart", self)
-	
-func _process(_delta):
-	# Send the score to the Wwise RTPC PlayerScore every frame
-	Wwise.set_rtpc("PlayerScore", PlayerVars.score, self)
+version https://git-lfs.github.com/spec/v1
+oid sha256:de33e38b342b85f01b435085730cfb57982d5f537631a5af6cd931a58bd7c3c8
+size 457

@@ -1,8 +1,3 @@
-[gd_resource type="NativeScript" load_steps=2 format=2]
-
-[ext_resource path="res://wwise/bin/waapi-gdnative-release.gdnlib" type="GDNativeLibrary" id=1]
-
-[resource]
-resource_name = "waapi-gdnative-release"
-class_name = "Waapi"
-library = ExtResource( 1 )
+version https://git-lfs.github.com/spec/v1
+oid sha256:5fefdaba7ae82d79ba3a3cbe53333490fe6e2e1dc99e9a67da3d09f2b075f71e
+size 254

@@ -1,26 +1,3 @@
-tool
-extends VisualScriptCustomNode
-
-export(String) var state_group:String
-export(String) var state_value:String
-
-func _get_caption():
-	return "Ak Set State"
-	
-func _get_category():
-	return "Wwise"
-	
-func _get_text():
-	return state_group + " / " + state_value
-
-func _has_input_sequence_port():
-	return true
-	
-func _get_output_sequence_port_count():
-	return 1
-
-func _step(_inputs, _outputs, start_mode, _working_mem):
-	if start_mode == START_MODE_BEGIN_SEQUENCE:
-		Wwise.set_state(state_group, state_value)
-
-	return 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:1b742b793cab3098701977059ffaff66a02d26c5502d3b06eada48d51d3bc474
+size 517
