@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a576cac69adfe4739a4b83156fd7b8025e20d7a404de355c447622c145d1e316
-size 378
+Event	ID	Name			Wwise Object Path	Notes
+	227030964	TestWoofEvent			\Default Work Unit\TestWoofEvent	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	41863930	TestWoof01	E:\Projects\DodgeTheCreeps_01_WWISE\DodgeTheCreeps_01_WWISE\.cache\Windows\SFX\EFX INT Dog Fight 01 A.M_EDDC4FB2.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestWoof01		58360
+
