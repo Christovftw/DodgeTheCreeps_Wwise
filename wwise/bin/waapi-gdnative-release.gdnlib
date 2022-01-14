@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b38535860fba6fc60b2818a109cc7ebedc3de8f30eab130ff027816e3ebd4f9a
-size 258
+[general]
+
+singleton=false
+load_once=true
+symbol_prefix="waapi_"
+reloadable=false
+
+[entry]
+
+OSX.64="res://wwise/bin/osx/release/libWaapiGDNative.dylib"
+Windows.64="res://wwise/bin/win64/release/WaapiGDNative.dll"
+
+[dependencies]
+
+OSX.64=[  ]
+Windows.64=[  ]
