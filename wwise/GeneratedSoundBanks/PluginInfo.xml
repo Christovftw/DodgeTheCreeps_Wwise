@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cc78f328739c1a854ea005fa0489769725617710a5686653a51f6dc4dfc8f746
-size 248
+<?xml version="1.0" encoding="utf-8"?>
+<PluginInfo Project="DodgeTheCreeps_01_WWISE" Platform="Windows" BasePlatform="Windows">
+	<Plugins>
+		<Plugin Name="System" ID="11403271"/>
+		<Plugin Name="No Output" ID="11862023"/>
+	</Plugins>
+</PluginInfo>
