@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1ef49ac87a2615155e9ebdb79461e085c46c8f3525944c10c33b74e25f310dfa
-size 448
+extends HBoxContainer
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = "text"
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(_delta):
+	for i in get_child_count():
+		get_child(i).visible = PlayerVars.health > i # shows the number of hearts equal to the player health

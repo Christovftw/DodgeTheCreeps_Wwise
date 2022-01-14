@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7fd432e2383dfdc0779cbff66f41b0a6d1a4bb8c5b91b3b7ad0edf1f0ed44a58
-size 200
+tool
+extends Tree
+
+func get_drag_data(pos):
+	var preview = Label.new()
+	if get_selected():
+		preview.text = get_selected().get_text(0)
+		set_drag_preview(preview)
+		return get_selected() # TreeItem
+	

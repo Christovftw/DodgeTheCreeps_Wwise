@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e5384d6f660fb39717c4bc67d57188baa7db36048a539384545c48950d9165a6
-size 531
+extends RigidBody2D
+
+export var min_speed = 150
+export var max_speed = 250
+
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = "text"
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	var mob_types = $AnimatedSprite.frames.get_animation_names()
+	$AnimatedSprite.animation = mob_types[randi() % mob_types.size()]
+
+
+
+func _on_VisibilityNotifier2D_screen_exited():
+	queue_free()
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+#	pass

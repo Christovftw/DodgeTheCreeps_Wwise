@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f1c8b3e327ef5a57fc624520db0006c2b802761d29fcc901e928588ca5e289bc
-size 226
+extends Node
+
+var aux_array:Array = []
+
+func _init():
+	aux_array = []
+
+func set_values(event:Object):
+	Wwise.set_game_obj_aux_send_values(event.get_instance_id(), aux_array, aux_array.size())
+
+func reset():
+	aux_array.clear()
